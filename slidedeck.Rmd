@@ -1,0 +1,74 @@
+---
+title: "Shiny Apps: Building interactive web applications and dashboards"
+author: "Umit Taner (WDM) & Willem Stolte (ZKS)"
+date: "September 21, 2020"
+output: 
+  revealjs::revealjs_presentation: 
+    includes:
+      in_header: header.html
+    theme: simple
+    css: styles.css
+    self_contained: true
+    transition: default
+    reveal_options:
+      slideNumber: true
+---
+
+
+
+## What do we cover in this lunch lecture
+
+- Quick intro of interactive dashboards with Shiny
+- Compare with other options such as Power BI
+- Use cases & examples 
+
+## Shiny is a framework that turns your data into interactive web applications
+
+<figure>
+  <img src="www/shinyGallery.png" width="1100" ></img>
+  <figcaption><p><small>https://shiny.rstudio.com/</small></p></figcaption>
+</figure>
+
+
+
+## Main Features
+
+- Open-source, uses R programming language
+- Full interactivity (computations on the fly)
+- Interactive display and manipulation of data
+- Appearance fully customizable with HTML, CSS and JavaScript
+- No installation required
+- Can be shared as a web-page hosted on a server
+
+
+## Basic structure
+
+<img src="www/shiny_structure.png" width="1100" ></img>
+
+
+## HTML widgets
+
+<img src="www/2.ShinyWidgets.png" width="850"></img>
+
+
+## How to share with colleagues/clients?
+
+Share as R files or simply as an URL (web link)
+
+<img src="www/shinyDeployment.png" width="800"></img>
+
+## Alternatives
+
+<img src="www/shiny_alternatives.png" width="800" ></img>
+
+## Shiny vs Power BI
+
+<img src="www/5.ShinyComparison.png" width="800" ></img>
+
+## Shiny vs others
+
+<img src="www/6.ShinyComparison2.png" width="700"></img>
+
+
+
+
